@@ -3,52 +3,20 @@ function estacao(){
     let mes = prompt("Digite um mes").toUpperCase()
 
     console.log(mes);
-    if(mes == "JANEIRO"){
+    if(mes == "JANEIRO" , "DEZEMBRO" , "FEVEREIRO"){
     mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é verão! <p/>`
 
     }
-    if(mes == "FEVEREIRO"){
-        mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é verão! <p/>`
-    
-    }
-    if(mes == "MARÇO"){
+    if(mes == "MARÇO" || mes == "ABRIL" || mes == "MAIO"){
         mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é outono! <p/>`
     
     }
-    if(mes == "ABRIL"){
-        mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é outono! <p/>`
-    
-    }
-    if(mes == "MAIO"){
-        mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é outono! <p/>`
-    
-    }
-    if(mes == "JUNHO"){
+    if(mes == "JUNHO" || mes == "JULHO" || mes == "AGOSTO"){
         mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é inverno! <p/>`
     
     }
-    if(mes == "JULHO"){
-        mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é inverno! <p/>`
-    
-    }
-    if(mes == "AGOSTO"){
-        mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é inverno! <p/>`
-    
-    }
-    if(mes == "SETEMBRO"){
+    if(mes == "SETEMBRO" || mes == "OUTUBRO" || mes == "NOVEMBRO"){
         mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é primavera! <p/>`
-    
-    }
-    if(mes == "OUTUBRO"){
-        mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é primavera! <p/>`
-    
-    }
-    if(mes == "NOVEMBRO"){
-        mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é primavera! <p/>`
-    
-    }
-    if(mes == "DEZEMBRO"){
-        mostraHTML.innerHTML = `<p>Você falou o ${mes}. A estação do ano é verão! <p/>`
     
     }
 }
