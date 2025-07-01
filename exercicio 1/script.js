@@ -6,7 +6,14 @@ function somar(){
     let num1 = Number(window.prompt("Digite aqui o primeiro número"));
     let num2 = Number(window.prompt("Digite o segundo número"));
 
-    let resultado = num1 + num2;     
+    resultado = num1 + num2;     
 
-    alert("O resultado é " + resultado + ".");
+    parOuImpar = resultado % 2;
+
+    if(parOuImpar == 0) {
+        alert("O número " + resultado + " é par");
+    } else {
+        alert("O número " + resultado + " é impar")
+    }
+
 }
